@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Post List</title>
+</head>
+<body>
+  <div class="flex justify-center">
+    <div class="flex justify-between w-1/3 ">
+      <div class="border px-4 py-2 bg-gray-700 text-white">
+        <a href="/categories/create">
+          <button class=""> 
+              Create Category
+          </button>
+        </a>
+      </div>
+      <div class="border px-4 py-2 bg-gray-700 text-white">
+        <a href="/posts/create">
+          <button class=""> 
+              Create Post
+          </button>
+        </a>
+      </div>
+      <div class="border px-4 py-2 bg-gray-700 text-white">
+        <a href="/posts">
+          <button class=""> 
+              Back Post List
+          </button>
+        </a>
+      
+    </div>
+      </div>
+  </div>
+  
+    <div class="">
+          <div class="">
+              <div class="container mx-auto px-4">
+                  <div class="flex flex-col">
+                      <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                          <div class=" shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                           <h1 class="text-3xl">Post Name: {{.Post.PostName}}</h1>
+                           <h3 class="text-2xl">Post Category: {{.Post.CategoryName}}</h3>
+                           <img src="/asset/{{.Post.PostImage}}" alt="" width="100%">
+                           <p>The English DemoBuild has a few differences from the customized version of MH Pro! that FBE provides for Trial Projects. The pieces are from two Mid-western precast producers. Each of the following characteristics of the DemoBuild may or may not be true for your company.
+
+                            Precast pieces have the height measured from the inside bottom.
+                            Selected frames and grates may not be the same as the ones that you use.
+                            The pipes in the example structures may not be those that are used in your area.
+                            Angles are measured Clockwise (CW).
+                            The example structures in the DemoBuild have specific ways that the following are presented (these presentations can be modified for your company).
+                            
+                            Adjustment (rings or leave short)
+                            Joint Seals
+                            Opening/connector Descriptions
+                            If you chose to do a Trial Project, then FBE customer engineers will request data about your precast pieces to put into MH Pro! so that the Shop and Submittal Drawings have the content and format your company requires. There are different versions of the Shop Drawing available in the English DemoBuild for any structure in the sample jobs.  You may chose elements from these Shops Drawings to define what your Shop Drawing will look like.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          </div>
+  </body>
+</html>
+
+                           
+ 
+                  
+                        
